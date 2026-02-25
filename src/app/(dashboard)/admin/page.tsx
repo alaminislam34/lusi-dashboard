@@ -1,9 +1,11 @@
 "use client";
 
+import DashboardStats from "./_components/home/DashboardStats";
+
 function Home() {
   return (
     <div>
-      <h1>Admin Dashboard</h1>
+      <DashboardStats />
     </div>
   );
 }

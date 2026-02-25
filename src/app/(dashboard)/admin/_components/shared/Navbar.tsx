@@ -20,7 +20,7 @@ export default function Navbar({
       <div className="flex items-center gap-4">
         <button
           onClick={onMenuClick}
-          className="p-2 text-gray-400 hover:text-white md:hidden"
+          className="p-2 text-gray-400 hover:text-white lg:hidden"
         >
           <Menu size={24} />
         </button>

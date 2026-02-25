@@ -24,7 +24,7 @@ export default function Sidebar({ onClose }: SidebarProps) {
       {/* Mobile Close Button */}
       <button
         onClick={onClose}
-        className="p-2 text-gray-400 hover:text-white md:hidden absolute top-4 right-4 z-50 cursor-pointer rounded-full bg-[#1a1d26] border border-gray-800"
+        className="p-2 text-gray-400 hover:text-white lg:hidden absolute top-4 right-4 z-50 cursor-pointer rounded-full bg-[#1a1d26] border border-gray-800"
       >
         <X size={20} />
       </button>
