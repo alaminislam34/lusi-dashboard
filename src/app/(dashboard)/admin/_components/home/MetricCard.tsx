@@ -22,7 +22,7 @@ export default function MetricCard({
     <div className="bg-[#11141b] border border-gray-800/50 p-6 rounded-[20px] flex flex-col justify-between min-h-40">
       <div>
         <h3 className="text-gray-400 text-xs font-medium mb-4">{title}</h3>
-        <p className="text-white text-lg md:text-xl lg:text-3xl font-bold tracking-tight">
+        <p className="text-white text-lg md:text-xl xl:text-2xl 2xl:text-3xl font-bold tracking-tight">
           {value}
         </p>
       </div>
