@@ -1,7 +1,9 @@
 "use client";
 
 function BusinessSignIn() {
-  return <div></div>;
+  return <div>
+    
+  </div>;
 }
 
 export default BusinessSignIn;
