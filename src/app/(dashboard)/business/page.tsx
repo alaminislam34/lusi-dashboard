@@ -1,10 +1,17 @@
-'use client'
+"use client";
+
+import BusinessStats from "./_components/Business/BusinessStats";
+import LeadOverview from "./_components/Business/Chart";
+import GrowthSection from "./_components/Business/GrowthSection";
+
 function Home() {
   return (
     <div>
-      <h1>Business Dashboard</h1>
+      <BusinessStats />
+      <LeadOverview />
+      <GrowthSection/>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

@@ -32,7 +32,46 @@ const notifications: Notification[] = [
     time: "Today, 9:12 AM",
     avatar: "/avatar-placeholder.jpg",
   },
-  // ... add more as needed
+  {
+    id: 3,
+    title: "New Hot Lead Identified",
+    description:
+      "AI has classified this lead as Hot based on high intent and strong engagement.",
+    time: "Today, 9:12 AM",
+    avatar: "/avatar-placeholder.jpg",
+  },
+  {
+    id: 4,
+    title: "New Hot Lead Identified",
+    description:
+      "AI has classified this lead as Hot based on high intent and strong engagement.",
+    time: "Today, 9:12 AM",
+    avatar: "/avatar-placeholder.jpg",
+  },
+  {
+    id: 5,
+    title: "New Hot Lead Identified",
+    description:
+      "AI has classified this lead as Hot based on high intent and strong engagement.",
+    time: "Today, 9:12 AM",
+    avatar: "/avatar-placeholder.jpg",
+  },
+  {
+    id: 6,
+    title: "New Hot Lead Identified",
+    description:
+      "AI has classified this lead as Hot based on high intent and strong engagement.",
+    time: "Today, 9:12 AM",
+    avatar: "/avatar-placeholder.jpg",
+  },
+  {
+    id: 7,
+    title: "New Hot Lead Identified",
+    description:
+      "AI has classified this lead as Hot based on high intent and strong engagement.",
+    time: "Today, 9:12 AM",
+    avatar: "/avatar-placeholder.jpg",
+  },
 ];
 
 interface Props {
@@ -46,7 +85,7 @@ export default function NotificationDrawer({ isOpen, onClose }: Props) {
       {/* Backdrop */}
       {isOpen && (
         <div
-          className="absolute w-full h-full inset-0 bg-black/40 backdrop-blur-sm z-60 transition-opacity"
+          className="absolute w-full h-screen inset-0 bg-black/40 backdrop-blur-sm z-60 transition-opacity"
           onClick={onClose}
         />
       )}

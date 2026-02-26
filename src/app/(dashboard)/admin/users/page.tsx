@@ -54,11 +54,11 @@ export default function UsersPage() {
   };
 
   return (
-    <div className="space-y-6 min-h-screen" onClick={() => setActiveMenu(null)}>
+    <div className="space-y-6" onClick={() => setActiveMenu(null)}>
       {/* Search Header */}
       <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
         <div
-          className="relative w-full md:max-w-xl"
+          className="relative w-full"
           onClick={(e) => e.stopPropagation()}
         >
           <Search
